@@ -7,6 +7,7 @@ function Contact() {
         <div className = "Contact">
             <h2>Civic Info API is called on this page</h2>
         </div>
+ 
     );
 }
 

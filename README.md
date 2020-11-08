@@ -1,3 +1,7 @@
+# Unity
+## Find your community
+
+
 **Inspiration**
 In a world were there seems to be a lot of political unrest, Unity provides a sense of community in regards to your advocacy for social change.
 

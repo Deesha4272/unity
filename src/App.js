@@ -6,7 +6,10 @@ import {
   Redirect,
   Switch,
 } from "react-router-dom";
+import Login from "./Login";
 import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
       <Router>
         <main>
           <Switch>
-            <Route path="/" exact component={Home.js} />
+            <Route path="/" exact component={Login} />
+            <Route path="/home" exact component={Home}/>
+            <Route path="/contact" exact component={Contact}/>
             <Redirect to="/" />
           </Switch>
         </main>
